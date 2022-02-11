@@ -1,0 +1,36 @@
+sno=int(input('enter sno:'))
+sname=(input('enter sname:'))
+sgroup=(input('enter group:'))
+s1=int(input('s1 marks:'))
+s2=int(input('s2 marks:'))
+s3=int(input('s3 marks:'))
+s4=int(input('s4 marks:'))
+s5=int(input('s5 marks:'))
+s6=int(input('s6 marks:'))
+total=s1+s2+s3+s4+s5+s6
+avg=total/6
+if avg>=91:
+    print('o-grade')
+elif avg>=81:
+        print('a-grade')
+elif avg>=71:
+        print('b-grade')
+elif avg>=60:
+        print('c-grade')
+elif avg>=50:
+        print('d-grade')
+elif avg>=40:
+        print('pass')
+else:
+    print('fail')
+output:
+enter sno:43
+enter sname:sravanthi
+enter group:mstcs           
+s1 marks:75
+s2 marks:71
+s3 marks:70
+s4 marks:68
+s5 marks:773
+s6 marks:74
+o-grade
